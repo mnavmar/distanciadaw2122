@@ -5,8 +5,8 @@
 */
 
   /**
-    * Función cuadraro
-    * @param int $num1
+    * Función cuadrado
+    * @param int $num
     * @return float
   */
 
@@ -16,18 +16,18 @@
 echo cuadrado(4); 
 
   /**
-    * Función FamiliaNombre
+    * Función FamiliaNombreyAño
     * @param varchar2 $name
     * @return varchar2
   */
   
-   function FamiliaNombre ($name){
-  	FamiliaNombre("$name");
-  	return $name
-}
+   function FamiliaNombre ($name, $year){
+  	FamiliaNombre("$name, $year");
+  	return "$name, $year" 
+ }
 
-FamiliaNombre("Navarro");
-echo "$name Navarro"
+FamiliaNombre("Navarro, 1959");
+echo "$fname Refsnes. Born in $year <br>";
 
-@internal: Solo para desarrolladores.
+@internal: Soloparadesarrolladores;
 ?>
