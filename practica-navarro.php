@@ -5,15 +5,28 @@
 */
 
   /**
-    * Función cuadrado
-    * @param int $num
+ * Función suma de dos números
+    * @param int $num1
+    * @param int $num2
     * @return float
   */
 
-   function cuadrado($núm){
-    return $núm * $núm;
-}
-echo cuadrado(4); 
+  function suma ($num1, $num2) {
+      $resultadosuma = $num1 + $num2;
+      return $resultadosuma;
+
+  }
+
+$suma = suma (24,42
+echo $suma;
+
+
+
+
+
+
+
+ 
 
   /**
     * Función FamiliaNombreyAño
